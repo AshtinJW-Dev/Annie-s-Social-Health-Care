@@ -1,4 +1,3 @@
-
 /*---------------------------------------
   CUSTOM PROPERTIES ( VARIABLES )             
 -----------------------------------------*/
@@ -39,26 +38,13 @@ body {
   TYPOGRAPHY               
 -----------------------------------------*/
 
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   color: var(--dark-color);
+  font-weight: var(--font-weight-semibold);
   line-height: inherit;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: var(--font-weight-semibold);
-}
-
-h1,
-h2 {
+h1, h2 {
   font-weight: var(--font-weight-bold);
 }
 
@@ -129,10 +115,7 @@ a:hover {
   padding: 0 30px;
   box-sizing: border-box;
   margin: 0;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  user-select: none;
   overflow: hidden;
   border-radius: 0;
   text-transform: uppercase;
@@ -195,9 +178,6 @@ strong {
 
 .animated-item {
   color: var(--primary-color);
-}
-
-.animated-item {
   display: block;
   opacity: 0;
   position: absolute;
@@ -266,7 +246,6 @@ strong {
   width: 45%;
   border-radius: 10px;
 }
-
 
 .contact-phone {
   font-weight: var(--font-weight-semibold);
@@ -365,9 +344,7 @@ strong {
 
 .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before,
 .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
-  transition: top 300ms 50ms ease, -webkit-transform 300ms 350ms ease;
   transition: top 300ms 50ms ease, transform 300ms 350ms ease;
-  transition: top 300ms 50ms ease, transform 300ms 350ms ease, -webkit-transform 300ms 350ms ease;
   top: 0;
 }
 
@@ -390,9 +367,7 @@ strong {
 
 .navbar-toggler .navbar-toggler-icon:before,
 .navbar-toggler .navbar-toggler-icon:after {
-  transition: top 300ms 350ms ease, -webkit-transform 300ms 50ms ease;
   transition: top 300ms 350ms ease, transform 300ms 50ms ease;
-  transition: top 300ms 350ms ease, transform 300ms 50ms ease, -webkit-transform 300ms 50ms ease;
   position: absolute;
   right: 0;
   left: 0;
@@ -420,10 +395,7 @@ strong {
 
 .gallery .container img{
   height: 30rem;
-}
-
-.gallery .container img{
- width: 100%;
+  width: 100%;
 }
 
 /*---------------------------------------
@@ -783,7 +755,6 @@ blockquote::after {
   place-items: center;
   overflow: hidden;
 }
-
 
 .slide-track{
   display: flex;
